@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/novalagung/gubrak"
 )
 
 func main() {
-	fmt.Println("halo")
+	fmt.Println(gubrak.RandomInt(10, 20))
 }
